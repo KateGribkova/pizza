@@ -20,6 +20,7 @@ a {
     background-image: url('../images/banner.jpg');
     position: relative;
     background-size: 100% auto;
+    background-repeat: no-repeat;
    
 }
 
@@ -33,9 +34,6 @@ a {
 .social-links i{
     color: white;
     font-size: 35px;
-
-
-   
 }
 .fb{
     width: 50px;
@@ -61,16 +59,13 @@ a {
 .container {
     padding: 20px 0;
 }
-.container img {
-   border-right: black solid 2px;
-}
 .main-popover     {
     max-width: 780px;
     margin: auto;
     position: relative;
+    top: 40px;
 }
 .main-popover-header {
-    height: 68px;
     background-color: #98161b;
     color: white;
     font-size: 20px;
@@ -127,7 +122,6 @@ footer{
     background-color: black;
     height: 450px;
     position: relative;
-    top: -40px;
     z-index: 0;
 }
 
