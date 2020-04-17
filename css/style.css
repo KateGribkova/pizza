@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hd{
+    background-color: #af2024;
+    height: 40px;
+
+}
+
+.bg-col{
+    background-color: #3f0002;
+    background-image: url('../images/banner.jpg');
+    position: relative;
+    background-size: 100% auto;
+   
+}
+
+.social-links{
+    position: fixed;
+    top: 225px;
+    right: 0px;
+    z-index: 99;
+}
+
+.social-links i{
+    color: white;
+    font-size: 35px;
+
+
+   
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    background-color: #850409;
+    text-align: center;
+    padding-top: 8px;
+}
+.tw{
+    width: 50px;
+    height: 50px;
+    background-color: #98161b;
+    text-align: center;
+    padding-top: 8px;
+}
+.mw{
+    max-width: 960px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.container {
+    padding: 20px 0;
+}
+.container img {
+   border-right: black solid 2px;
+}
+.main-popover     {
+    max-width: 780px;
+    margin: auto;
+    position: relative;
+}
+.main-popover-header {
+    height: 68px;
+    background-color: #98161b;
+    color: white;
+    font-size: 20px;
+    position: center;
+    padding: 26px 24px;
+    font-family: 'Arvo', serif;
+}
+.main-popover-middle{
+    padding: 62px 70px 127px;
+    background-color: white;
+    max-width: 780px;
+    margin: auto;
+    position: center;
+}
+.player{
+    background-color: #e7e7e7;
+    height: 349px;
+    margin-bottom: 27px;
+}
+
+.player div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -70px;
+}
+.player i{
+    font-size: 50px;
+    color: #98161b
+}
+.text1{
+    margin-bottom: 19px;
+    font-size: 12px;
+    color: #98161b;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+.date{
+    color: #7d7d7d;
+}
+.dotted-line{
+    border-top: 1px dotted #98161b;
+    width: 45px;
+    padding-top: 16px;
+}
+.text2{
+    font-size: 12px;
+    color: #98161b;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+}
+footer{
+    background-color: black;
+    height: 450px;
+    position: relative;
+    top: -40px;
+    z-index: 0;
+}
+
+
+
+
+
+
