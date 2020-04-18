@@ -84,6 +84,7 @@ a {
     background-color: #e7e7e7;
     height: 349px;
     margin-bottom: 27px;
+    position: relative;
 }
 
 .player div{
@@ -91,7 +92,7 @@ a {
     left: 50%;
     top: 50%;
     margin-left: -25px;
-    margin-top: -70px;
+    margin-top: -25px;
 }
 .player i{
     font-size: 50px;
